@@ -1,17 +1,20 @@
-#thePage {
+html, body {
+  width: auto;
+  height: 99%;
+ 
+}
+
+article {
+
+  min-height: 100%;
   display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template:
-    [header-left] "head head" 50px [header-right]
-    [main-left] "content  content" 1fr [main-right]
-    [footer-left] "foot  foot" 130px [footer-right]
-    / 120px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
 }
 
 header {
   background-color: wheat;
-  grid-area: head;
+ 
 
   border-radius: 10px;
   border: 3px solid wheat;
@@ -24,6 +27,7 @@ header {
 main {
   background-color: white;
   margin: auto;
+  
 }
 
 .form {
@@ -32,10 +36,11 @@ main {
 
 footer {
   background-color: wheat;
-  grid-area: foot;
+  
 
   border-radius: 10px;
   border: 3px solid wheat;
+  padding: 4rem;
 }
 
 .nav-button {
