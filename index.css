@@ -2,14 +2,12 @@ body {
   background-color: wheat;
 }
 
-
 .container {
+  height: 90vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
-
-
 
 .start-btn {
   background-color: white;
