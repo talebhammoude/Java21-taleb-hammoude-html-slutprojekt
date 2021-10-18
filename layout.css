@@ -21,17 +21,25 @@ header {
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+
+
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  margin: 10px
 }
 
 main {
-  height: 520px;
+  
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  overflow-y: scroll;
+  
   
   
   
@@ -75,7 +83,8 @@ footer {
   border: 3px solid whitesmoke;
   cursor: pointer;
   color: black;
-  margin: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 35px;
   font-weight: bold;
 }
