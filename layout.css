@@ -25,11 +25,15 @@ header {
 }
 
 main {
+  height: 520px;
   background-color: white;
-  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  
+  
   
 }
 
@@ -54,11 +58,11 @@ main {
 
 footer {
   background-color: wheat;
-  
+  margin: 10px;
 
   border-radius: 10px;
   border: 3px solid wheat;
-  height: 18vh;
+  height: 200px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -82,7 +86,7 @@ footer {
   cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .menu-icon {
     display: inline;
   }
@@ -91,6 +95,17 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+  }
+
+  main {
+    display: inline-block;
+    margin: auto;
+    
+  }
+
+
+  .item {
+    text-align: center;
   }
 
   .nav-button {
