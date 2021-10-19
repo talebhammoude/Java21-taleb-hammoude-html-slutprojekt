@@ -129,6 +129,21 @@ footer {
   }
 
 
+  
+.card {
+
+  height: 260px;
+  width: 510px;
+  
+}
+
+#subject {
+  height: 150px !important;
+  width: 450px !important;
+}
+  
+
+
   .item {
     text-align: center;
   }
