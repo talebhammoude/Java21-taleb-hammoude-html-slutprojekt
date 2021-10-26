@@ -105,50 +105,52 @@ footer {
   font-weight: bold;
 }
 
+
 .menu-icon {
   display: none;
   margin: 5px;
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
-  .menu-icon {
-    display: inline;
+.project-pic {
+  margin-left: 25%;
+  width: 50%;
+  
+  
+}
+
+@media screen and (max-width: 376px) {
+ 
+ 
+  header {
+    height: 110px;
+    width: 100%;
+    display: block;
+
   }
 
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
+
 
   main {
-    display: inline-block;
+    display: block;
     margin: auto;
     
   }
 
-
-  
-.card {
-
-  height: 260px;
-  width: 510px;
-  
-}
-
-#subject {
-  height: 150px !important;
-  width: 450px !important;
-}
-  
 
 
   .item {
     text-align: center;
   }
 
-  .nav-button {
-    display: none;
+
+  .project-pic {
+    margin-top: 10px;
+    margin-left: 0%;
+    width: 100%;
+    
+    
   }
+
+ 
 }
