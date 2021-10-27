@@ -64,7 +64,23 @@ main {
   background: rgb(240, 240, 240);
 }
 
-.card {
+.contact-card {
+
+  height: 460px;
+  width: 900px;
+  padding: 5px;
+  margin: 7px;
+  display:block;
+  align-items: center;
+  justify-content: center;
+  
+
+  border-radius: 10px;
+  border: 3px solid lightgray;
+  background: rgb(240, 240, 240);
+}
+
+.info-card {
 
   width: 100%;
   padding: 5px;
@@ -77,6 +93,12 @@ main {
   border-radius: 10px;
   border: 3px solid lightgray;
   background: rgb(240, 240, 240);
+}
+
+#subject {
+  margin: 10px;
+  width: 870px;
+  height: 300px;
 }
 
 footer {
@@ -136,14 +158,31 @@ footer {
     
   }
 
-
-  .card {
+  .info-card {
 
     width: 99%;
     padding: 1px;
-    margin: 0;
-   
+    margin: 0px;
+    
   }
+
+
+  .form {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .contact-card {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #subject {
+    width: 340px;
+  }
+
 
 
 
